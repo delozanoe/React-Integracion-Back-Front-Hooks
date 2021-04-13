@@ -25,6 +25,6 @@ const findDocuments = function (db, callback) {
         callback(docs);
     });
 }
-
+console.log(process.env.mongourl);
 exports.getDatabase = getDatabase;
 exports.findDocuments = findDocuments;

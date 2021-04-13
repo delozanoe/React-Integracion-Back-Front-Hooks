@@ -50,5 +50,5 @@ function Signup() {
     </div>
   );
 }
-
+console.log('eoifjri');
 export default Signup;
